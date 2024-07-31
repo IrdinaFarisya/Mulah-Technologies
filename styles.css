@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo {
+    width: 200px; 
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center; 
+    vertical-align: middle; 
+}
