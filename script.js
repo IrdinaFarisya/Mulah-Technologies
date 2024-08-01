@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const filePath = 'http://localhost/Mulah%20Tech%20Assignment/Table_Input.csv'; // Ensure this path is correct
-    fetch(filePath, { mode: 'cors' })
+    const filePath = 'Table_Input.csv'; 
+    fetch(filePath)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok ' + response.statusText);
